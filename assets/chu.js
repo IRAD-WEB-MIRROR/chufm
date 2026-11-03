@@ -77,13 +77,7 @@
     }, 5500);
   }
 
-  // greetings form: goes nowhere, says thanks
-  var f = document.getElementById("chu-greet");
-  if (f) f.addEventListener("submit", function (e) {
-    e.preventDefault();
-    var b = f.querySelector("button"); b.disabled = true; b.textContent = T("Отправка…", "Sending…");
-    setTimeout(function () { f.querySelector(".ok").hidden = false; b.textContent = T("Отправлено", "Sent"); f.reset(); }, 1600);
-  });
+  // greetings form and the Request Desk running order: assets/zakaz.js
 
   // chart votes: one a day, remembered in the browser
   var vm = document.getElementById("chu-votemsg");
