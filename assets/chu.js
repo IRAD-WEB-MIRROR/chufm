@@ -57,13 +57,39 @@
   if (tabs) tabs.addEventListener("click", function (e) { var k = e.target.getAttribute("data-tab"); if (k) showTab(k); });
   showTab(dk);
 
-  // the player: the stream has been "temporarily" off since March 2025
-  var play = document.querySelector("[data-play]"), msg = document.getElementById("chu-msg");
-  if (play) play.addEventListener("click", function () {
+  // the player: the stream has been "temporarily" off since March 2025. It comes back by itself on the radio wheel
+  // (assets/wheel.js, wheel.json) as soon as the wheel holds cleared tracks; until then the old error stays.
+  var play = document.querySelector("[data-play]"), msg = document.getElementById("chu-msg"), wp = null;
+  function chuSlot(ms) {  // the grid row on air at ms, for the wheel (day rows by weekday, Nurzhan time)
+    var H = 3600000, d = new Date(ms + 6 * H), m0 = ms - (d.getUTCHours() * 60 + d.getUTCMinutes()) * 60000 - d.getUTCSeconds() * 1000 - d.getUTCMilliseconds();
+    var k = d.getUTCDay() === 6 ? "sat" : d.getUTCDay() === 0 ? "sun" : "wd", hmn = pad(d.getUTCHours()) + ":" + pad(d.getUTCMinutes());
+    var r = (C.grid || []).filter(function (g) { return (g[6] === "all" || g[6] === k) && g[0] <= hmn && (hmn < g[1] || g[1] === "00:00"); })[0];
+    if (!r) return null;
+    function at(t) { var p = t.split(":"); return m0 + (+p[0] * 60 + +p[1]) * 60000; }
+    return { id: r[2], title: EN ? r[3] : r[2], startMs: at(r[0]), endMs: r[1] === "00:00" ? m0 + 86400000 : at(r[1]) };
+  }
+  function fail() {
     play.className = "play err";
     var eq = document.querySelector(".eq");
     if (eq) eq.style.opacity = ".3";
     setTimeout(function () { if (msg) msg.hidden = false; }, 1400);
+  }
+  if (play) play.addEventListener("click", function () {
+    if (wp) { play.className = wp.toggle() ? "play on" : "play"; return; }
+    if (!window.IradWheel) return fail();
+    fetch((EN ? "../" : "") + "assets/wheel.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (wheel) {
+      var W = IradWheel.create({ wheel: wheel, slot: chuSlot, base: (EN ? "../" : "") + "assets/" });
+      if (!Object.keys(wheel.tracks || {}).length || !W.at(W.now()).track) return fail();
+      var a = document.createElement("audio"), vol = document.querySelector(".vol");
+      document.getElementById("chu-player").appendChild(a);
+      if (vol) { a.volume = vol.value / 100; vol.addEventListener("input", function () { a.volume = vol.value / 100; }); }
+      wp = W.player(a, function (st) {
+        var h = document.getElementById("chu-host");
+        if (st.error) return fail();
+        if (h && st.playing && st.item.track) h.textContent = "♪ " + st.item.track.title + (st.item.track.by ? " — " + st.item.track.by : "");
+      });
+      play.className = wp.toggle() ? "play on" : "play";
+    }).catch(fail);
   });
 
   // slider
