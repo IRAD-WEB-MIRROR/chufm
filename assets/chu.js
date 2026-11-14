@@ -75,7 +75,7 @@
     setTimeout(function () { if (msg) msg.hidden = false; }, 1400);
   }
   if (play) play.addEventListener("click", function () {
-    if (wp) { play.className = wp.toggle() ? "play on" : "play"; return; }
+    if (wp) { wp.toggle(); return; }
     if (!window.IradWheel) return fail();
     fetch((EN ? "../" : "") + "assets/wheel.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (wheel) {
       var W = IradWheel.create({ wheel: wheel, slot: chuSlot, base: (EN ? "../" : "") + "assets/" });
@@ -83,12 +83,18 @@
       var a = document.createElement("audio"), vol = document.querySelector(".vol");
       document.getElementById("chu-player").appendChild(a);
       if (vol) { a.volume = vol.value / 100; vol.addEventListener("input", function () { a.volume = vol.value / 100; }); }
+      var box = document.getElementById("chu-player");
       wp = W.player(a, function (st) {
         var h = document.getElementById("chu-host");
         if (st.error) return fail();
-        if (h && st.playing && st.item.track) h.textContent = "♪ " + st.item.track.title + (st.item.track.by ? " — " + st.item.track.by : "");
+        play.className = "play" + (st.armed ? " on" : "") + (st.buffering ? " buf" : "");
+        box.className = "player" + (st.playing && !st.buffering ? " live" : "");
+        if (!h) return;
+        if (st.buffering) h.textContent = EN ? "Connecting…" : "Подключение…";
+        else if (st.playing && st.item.track) h.textContent = "♪ " + st.item.track.title + (st.item.track.by ? " — " + st.item.track.by : "");
+        else if (!st.armed) h.textContent = "";
       });
-      play.className = wp.toggle() ? "play on" : "play";
+      wp.toggle();
     }).catch(fail);
   });
 

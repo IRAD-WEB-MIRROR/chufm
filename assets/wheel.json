@@ -1,7 +1,1029 @@
 {
-  "station": "Радио «Чу FM»",
-  "tracks": {},
-  "cues": {},
-  "rotation": {"*": []},
-  "talk": ["Новости города", "«Город». Прямой эфир", "«Город». Субботний", "«Город». Итоги недели", "«Вечерний Нуржан» в эфире"]
+ "station": "Радио «Чу FM»",
+ "tracks": {
+  "time-00": {
+   "src": "audio/time-00.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 2.88
+  },
+  "time-01": {
+   "src": "audio/time-01.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.14
+  },
+  "time-02": {
+   "src": "audio/time-02.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.12
+  },
+  "time-03": {
+   "src": "audio/time-03.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.38
+  },
+  "time-04": {
+   "src": "audio/time-04.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.58
+  },
+  "time-05": {
+   "src": "audio/time-05.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.41
+  },
+  "time-06": {
+   "src": "audio/time-06.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.29
+  },
+  "time-07": {
+   "src": "audio/time-07.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.89
+  },
+  "time-08": {
+   "src": "audio/time-08.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.34
+  },
+  "time-09": {
+   "src": "audio/time-09.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.6
+  },
+  "time-10": {
+   "src": "audio/time-10.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 4.1
+  },
+  "time-11": {
+   "src": "audio/time-11.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.26
+  },
+  "time-12": {
+   "src": "audio/time-12.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 2.66
+  },
+  "time-13": {
+   "src": "audio/time-13.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 2.71
+  },
+  "time-14": {
+   "src": "audio/time-14.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 2.88
+  },
+  "time-15": {
+   "src": "audio/time-15.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.29
+  },
+  "time-16": {
+   "src": "audio/time-16.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.05
+  },
+  "time-17": {
+   "src": "audio/time-17.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.46
+  },
+  "time-18": {
+   "src": "audio/time-18.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.62
+  },
+  "time-19": {
+   "src": "audio/time-19.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.43
+  },
+  "time-20": {
+   "src": "audio/time-20.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.84
+  },
+  "time-21": {
+   "src": "audio/time-21.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.6
+  },
+  "time-22": {
+   "src": "audio/time-22.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 4.01
+  },
+  "time-23": {
+   "src": "audio/time-23.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 4.75
+  },
+  "id-01": {
+   "src": "audio/id-01.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.53
+  },
+  "id-02": {
+   "src": "audio/id-02.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.74
+  },
+  "id-03": {
+   "src": "audio/id-03.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 6.29
+  },
+  "id-04": {
+   "src": "audio/id-04.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 2.74
+  },
+  "id-05": {
+   "src": "audio/id-05.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 4.39
+  },
+  "id-06": {
+   "src": "audio/id-06.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 3.91
+  },
+  "ad-01": {
+   "src": "audio/ad-01.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 12.53
+  },
+  "ad-02": {
+   "src": "audio/ad-02.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 16.75
+  },
+  "ad-03": {
+   "src": "audio/ad-03.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 11.74
+  },
+  "ad-04": {
+   "src": "audio/ad-04.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 11.69
+  },
+  "ad-05": {
+   "src": "audio/ad-05.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 10.44
+  },
+  "ad-06": {
+   "src": "audio/ad-06.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 10.87
+  },
+  "ad-07": {
+   "src": "audio/ad-07.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 9.89
+  },
+  "ad-08": {
+   "src": "audio/ad-08.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 10.22
+  },
+  "ad-09": {
+   "src": "audio/ad-09.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 9.6
+  },
+  "ad-10": {
+   "src": "audio/ad-10.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 11.66
+  },
+  "ad-11": {
+   "src": "audio/ad-11.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 10.87
+  },
+  "ad-12": {
+   "src": "audio/ad-12.mp3",
+   "title": "Реклама",
+   "by": "",
+   "dur": 11.47
+  },
+  "am-01": {
+   "src": "audio/am-01.mp3",
+   "title": "«Утро на Чу»",
+   "by": "",
+   "dur": 11.18
+  },
+  "am-02": {
+   "src": "audio/am-02.mp3",
+   "title": "«Утро на Чу»",
+   "by": "",
+   "dur": 6.05
+  },
+  "am-03": {
+   "src": "audio/am-03.mp3",
+   "title": "«Утро на Чу»",
+   "by": "",
+   "dur": 9.41
+  },
+  "am-04": {
+   "src": "audio/am-04.mp3",
+   "title": "«Утро на Чу»",
+   "by": "",
+   "dur": 9.82
+  },
+  "am-05": {
+   "src": "audio/am-05.mp3",
+   "title": "«Утро на Чу»",
+   "by": "",
+   "dur": 9.14
+  },
+  "am-06": {
+   "src": "audio/am-06.mp3",
+   "title": "«Утро на Чу»",
+   "by": "",
+   "dur": 5.95
+  },
+  "hits-01": {
+   "src": "audio/hits-01.mp3",
+   "title": "«Хиты „Чу FM“»",
+   "by": "",
+   "dur": 7.32
+  },
+  "hits-02": {
+   "src": "audio/hits-02.mp3",
+   "title": "«Хиты „Чу FM“»",
+   "by": "",
+   "dur": 6.34
+  },
+  "hits-03": {
+   "src": "audio/hits-03.mp3",
+   "title": "«Хиты „Чу FM“»",
+   "by": "",
+   "dur": 9.36
+  },
+  "hits-04": {
+   "src": "audio/hits-04.mp3",
+   "title": "«Хиты „Чу FM“»",
+   "by": "",
+   "dur": 4.85
+  },
+  "pm-01": {
+   "src": "audio/pm-01.mp3",
+   "title": "«Дневной эфир»",
+   "by": "",
+   "dur": 8.21
+  },
+  "pm-02": {
+   "src": "audio/pm-02.mp3",
+   "title": "«Дневной эфир»",
+   "by": "",
+   "dur": 8.16
+  },
+  "pm-03": {
+   "src": "audio/pm-03.mp3",
+   "title": "«Дневной эфир»",
+   "by": "",
+   "dur": 6.36
+  },
+  "pm-04": {
+   "src": "audio/pm-04.mp3",
+   "title": "«Дневной эфир»",
+   "by": "",
+   "dur": 5.83
+  },
+  "pm-05": {
+   "src": "audio/pm-05.mp3",
+   "title": "«Дневной эфир»",
+   "by": "",
+   "dur": 5.06
+  },
+  "gorod-01": {
+   "src": "audio/gorod-01.mp3",
+   "title": "«Город»",
+   "by": "",
+   "dur": 8.33
+  },
+  "gorod-02": {
+   "src": "audio/gorod-02.mp3",
+   "title": "«Город»",
+   "by": "",
+   "dur": 8.86
+  },
+  "gorod-03": {
+   "src": "audio/gorod-03.mp3",
+   "title": "«Город»",
+   "by": "",
+   "dur": 6.1
+  },
+  "call-01": {
+   "src": "audio/call-01.mp3",
+   "title": "«Город». Звонок в студию",
+   "by": "",
+   "dur": 28.42
+  },
+  "call-02": {
+   "src": "audio/call-02.mp3",
+   "title": "«Город». Звонок в студию",
+   "by": "",
+   "dur": 26.81
+  },
+  "call-03": {
+   "src": "audio/call-03.mp3",
+   "title": "«Город». Звонок в студию",
+   "by": "",
+   "dur": 24.84
+  },
+  "call-04": {
+   "src": "audio/call-04.mp3",
+   "title": "«Город». Звонок в студию",
+   "by": "",
+   "dur": 20.38
+  },
+  "call-05": {
+   "src": "audio/call-05.mp3",
+   "title": "«Город». Звонок в студию",
+   "by": "",
+   "dur": 18.22
+  },
+  "req-01": {
+   "src": "audio/req-01.mp3",
+   "title": "«Стол заказов»",
+   "by": "",
+   "dur": 5.62
+  },
+  "req-02": {
+   "src": "audio/req-02.mp3",
+   "title": "«Стол заказов»",
+   "by": "",
+   "dur": 8.54
+  },
+  "req-03": {
+   "src": "audio/req-03.mp3",
+   "title": "«Стол заказов»",
+   "by": "",
+   "dur": 6.98
+  },
+  "req-04": {
+   "src": "audio/req-04.mp3",
+   "title": "«Стол заказов»",
+   "by": "",
+   "dur": 6.14
+  },
+  "req-05": {
+   "src": "audio/req-05.mp3",
+   "title": "«Стол заказов»",
+   "by": "",
+   "dur": 7.15
+  },
+  "night-01": {
+   "src": "audio/night-01.mp3",
+   "title": "«Вечерний шансон»",
+   "by": "",
+   "dur": 8.4
+  },
+  "night-02": {
+   "src": "audio/night-02.mp3",
+   "title": "«Вечерний шансон»",
+   "by": "",
+   "dur": 7.34
+  },
+  "night-03": {
+   "src": "audio/night-03.mp3",
+   "title": "«Вечерний шансон»",
+   "by": "",
+   "dur": 4.49
+  },
+  "night-04": {
+   "src": "audio/night-04.mp3",
+   "title": "«Вечерний шансон»",
+   "by": "",
+   "dur": 4.37
+  },
+  "jingle-01": {
+   "src": "audio/jingle-01.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 8.86
+  },
+  "jingle-02": {
+   "src": "audio/jingle-02.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 7.97
+  },
+  "jingle-03": {
+   "src": "audio/jingle-03.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 8.86
+  },
+  "jingle-04": {
+   "src": "audio/jingle-04.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 7.97
+  },
+  "jingle-05": {
+   "src": "audio/jingle-05.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 8.66
+  },
+  "jingle-06": {
+   "src": "audio/jingle-06.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 10.46
+  },
+  "jingle-07": {
+   "src": "audio/jingle-07.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 8.86
+  },
+  "jingle-08": {
+   "src": "audio/jingle-08.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 8.66
+  },
+  "jingle-09": {
+   "src": "audio/jingle-09.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 7.85
+  },
+  "jingle-10": {
+   "src": "audio/jingle-10.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 10.46
+  },
+  "jingle-11": {
+   "src": "audio/jingle-11.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 8.66
+  },
+  "jingle-12": {
+   "src": "audio/jingle-12.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 9.36
+  },
+  "jingle-13": {
+   "src": "audio/jingle-13.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 11.45
+  },
+  "sting": {
+   "src": "audio/sting.mp3",
+   "title": "Радио «Чу FM»",
+   "by": "",
+   "dur": 5.21
+  },
+  "song-02": {
+   "src": "audio/song-02.mp3",
+   "title": "Проспект",
+   "by": "Пятый этаж",
+   "dur": 251.25
+  },
+  "in-02": {
+   "src": "audio/in-02.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.95
+  },
+  "song-03": {
+   "src": "audio/song-03.mp3",
+   "title": "Кофе на двоих",
+   "by": "Тимур Рахимов",
+   "dur": 153.6
+  },
+  "in-03": {
+   "src": "audio/in-03.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.88
+  },
+  "song-04": {
+   "src": "audio/song-04.mp3",
+   "title": "Сорок минут до утра",
+   "by": "Кристина Орлова",
+   "dur": 207.91
+  },
+  "in-04": {
+   "src": "audio/in-04.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 8.09
+  },
+  "song-05": {
+   "src": "audio/song-05.mp3",
+   "title": "Пятница",
+   "by": "Вика Ли feat. ДЖЕМ",
+   "dur": 135.63
+  },
+  "in-05": {
+   "src": "audio/in-05.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 6.07
+  },
+  "song-06": {
+   "src": "audio/song-06.mp3",
+   "title": "Троллейбус номер семь",
+   "by": "Северный ветер",
+   "dur": 204.67
+  },
+  "in-06": {
+   "src": "audio/in-06.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 6.6
+  },
+  "in-07": {
+   "src": "audio/in-07.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.9
+  },
+  "in-08": {
+   "src": "audio/in-08.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 7.63
+  },
+  "in-09": {
+   "src": "audio/in-09.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 4.75
+  },
+  "song-10": {
+   "src": "audio/song-10.mp3",
+   "title": "Без тормозов",
+   "by": "Монолит",
+   "dur": 145.24
+  },
+  "in-10": {
+   "src": "audio/in-10.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 6.1
+  },
+  "song-11": {
+   "src": "audio/song-11.mp3",
+   "title": "Мама, я в Нуржане",
+   "by": "Ирина Ветрова",
+   "dur": 178.91
+  },
+  "in-11": {
+   "src": "audio/in-11.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 7.58
+  },
+  "in-12": {
+   "src": "audio/in-12.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.66
+  },
+  "in-13": {
+   "src": "audio/in-13.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.69
+  },
+  "song-14": {
+   "src": "audio/song-14.mp3",
+   "title": "Boorsok Girl",
+   "by": "4Muuz",
+   "dur": 157.65
+  },
+  "in-14": {
+   "src": "audio/in-14.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.83
+  },
+  "in-15": {
+   "src": "audio/in-15.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 7.68
+  },
+  "in-16": {
+   "src": "audio/in-16.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 3.84
+  },
+  "in-17": {
+   "src": "audio/in-17.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 6.07
+  },
+  "song-18": {
+   "src": "audio/song-18.mp3",
+   "title": "Ak Börü",
+   "by": "Каракуш",
+   "dur": 195.63
+  },
+  "in-18": {
+   "src": "audio/in-18.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 5.98
+  },
+  "in-19": {
+   "src": "audio/in-19.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 4.13
+  },
+  "song-20": {
+   "src": "audio/song-20.mp3",
+   "title": "Последний автобус",
+   "by": "Артур Хан",
+   "dur": 171.6
+  },
+  "in-20": {
+   "src": "audio/in-20.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 7.25
+  },
+  "gold-01": {
+   "src": "audio/gold-01.mp3",
+   "title": "Не звони после двух",
+   "by": "Лена Мирная",
+   "dur": 160.0
+  },
+  "in-01": {
+   "src": "audio/in-01.mp3",
+   "title": "Марат Исаков",
+   "by": "",
+   "dur": 7.73
+  }
+ },
+ "pools": {
+  "ids": [
+   "id-01",
+   "id-02",
+   "id-03",
+   "id-04",
+   "id-05",
+   "id-06"
+  ],
+  "ads": [
+   "ad-01",
+   "ad-02",
+   "ad-03",
+   "ad-04",
+   "ad-05",
+   "ad-06",
+   "ad-07",
+   "ad-08",
+   "ad-09",
+   "ad-10",
+   "ad-11",
+   "ad-12"
+  ],
+  "am": [
+   "am-01",
+   "am-02",
+   "am-03",
+   "am-04",
+   "am-05"
+  ],
+  "hits": [
+   "hits-01",
+   "hits-02",
+   "hits-03",
+   "hits-04"
+  ],
+  "pm": [
+   "pm-01",
+   "pm-02",
+   "pm-03",
+   "pm-04",
+   "pm-05"
+  ],
+  "gorod": [
+   "gorod-01",
+   "gorod-02",
+   "gorod-03"
+  ],
+  "calls": [
+   "call-01",
+   "call-02",
+   "call-03",
+   "call-04",
+   "call-05"
+  ],
+  "req": [
+   "req-02",
+   "req-03",
+   "req-04",
+   "req-05"
+  ],
+  "night": [
+   "night-02",
+   "night-03",
+   "night-04"
+  ],
+  "jingles": [
+   "jingle-01",
+   "jingle-02",
+   "jingle-03",
+   "jingle-04",
+   "jingle-05",
+   "jingle-06",
+   "jingle-07",
+   "jingle-08",
+   "jingle-09",
+   "jingle-10",
+   "jingle-11"
+  ]
+ },
+ "clock": {
+  "*": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "@jingles"
+    ]
+   },
+   {
+    "at": 20,
+    "play": [
+     "sting",
+     "@ads",
+     "@ads",
+     "@ids"
+    ]
+   },
+   {
+    "at": 45,
+    "play": [
+     "sting",
+     "@ads",
+     "@ads",
+     "@jingles"
+    ]
+   }
+  ],
+  "Ночная волна": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "jingle-12"
+    ]
+   },
+   {
+    "at": 30,
+    "play": [
+     "@ids",
+     "@ads"
+    ]
+   }
+  ],
+  "«Город». Прямой эфир": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "gorod-01"
+    ]
+   },
+   {
+    "at": 12,
+    "play": [
+     "@calls"
+    ]
+   },
+   {
+    "at": 30,
+    "play": [
+     "@ads",
+     "@ads"
+    ]
+   },
+   {
+    "at": 38,
+    "play": [
+     "@gorod",
+     "@calls"
+    ]
+   }
+  ],
+  "Стол заказов": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "req-01"
+    ]
+   },
+   {
+    "at": 45,
+    "play": [
+     "@ads"
+    ]
+   }
+  ],
+  "Вечерний шансон": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "jingle-13"
+    ]
+   },
+   {
+    "at": 30,
+    "play": [
+     "@ads"
+    ]
+   }
+  ],
+  "«Город». Субботний": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "gorod-01"
+    ]
+   },
+   {
+    "at": 12,
+    "play": [
+     "@calls"
+    ]
+   },
+   {
+    "at": 30,
+    "play": [
+     "@ads",
+     "@ads"
+    ]
+   },
+   {
+    "at": 38,
+    "play": [
+     "@gorod",
+     "@calls"
+    ]
+   }
+  ],
+  "«Город». Итоги недели": [
+   {
+    "at": 0,
+    "play": [
+     "@time",
+     "gorod-01"
+    ]
+   },
+   {
+    "at": 12,
+    "play": [
+     "@calls"
+    ]
+   },
+   {
+    "at": 30,
+    "play": [
+     "@ads",
+     "@ads"
+    ]
+   },
+   {
+    "at": 38,
+    "play": [
+     "@gorod",
+     "@calls"
+    ]
+   }
+  ]
+ },
+ "links": {
+  "Утро на Чу": {
+   "pool": "am",
+   "every": 2
+  },
+  "Хиты «Чу FM»": {
+   "pool": "hits",
+   "every": 3
+  },
+  "Ночная волна": {
+   "pool": "ids",
+   "every": 4
+  },
+  "Дневной эфир": {
+   "pool": "pm",
+   "every": 2
+  },
+  "Стол заказов": {
+   "pool": "req",
+   "every": 1
+  },
+  "Вечерний шансон": {
+   "pool": "night",
+   "every": 2
+  }
+ },
+ "intro": {
+  "song-02": "in-02",
+  "song-03": "in-03",
+  "song-04": "in-04",
+  "song-05": "in-05",
+  "song-06": "in-06",
+  "song-07": "in-07",
+  "song-08": "in-08",
+  "song-09": "in-09",
+  "song-10": "in-10",
+  "song-11": "in-11",
+  "song-12": "in-12",
+  "song-13": "in-13",
+  "song-14": "in-14",
+  "song-15": "in-15",
+  "song-16": "in-16",
+  "song-17": "in-17",
+  "song-18": "in-18",
+  "song-19": "in-19",
+  "song-20": "in-20",
+  "gold-01": "in-01"
+ },
+ "cues": {},
+ "rotation": {
+  "*": [
+   "song-02",
+   "song-03",
+   "song-04",
+   "song-05",
+   "song-06",
+   "song-10",
+   "song-11",
+   "song-14",
+   "song-18",
+   "song-20",
+   "gold-01"
+  ]
+ },
+ "talk": [
+  "Новости города",
+  "«Вечерний Нуржан» в эфире"
+ ]
 }

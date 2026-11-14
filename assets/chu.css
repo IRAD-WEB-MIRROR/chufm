@@ -46,6 +46,16 @@ h3{font-size:17px;margin:0 0 4px}
 .play{width:46px;height:46px;border-radius:50%;border:3px solid #fff;background:linear-gradient(#ff5a4e,#c8150d);cursor:pointer;position:relative;box-shadow:0 0 0 3px rgba(226,35,26,.35)}
 .play i{position:absolute;left:16px;top:11px;border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent}
 .play.err{background:linear-gradient(#999,#666)}
+.play.on i{left:13px;top:12px;width:5px;height:16px;border:0;background:#fff;box-shadow:9px 0 0 #fff}
+.play.buf:after{content:"";position:absolute;inset:-7px;border-radius:50%;border:3px solid transparent;border-top-color:#ffd1ce;border-right-color:#ffd1ce;animation:chuspin .8s linear infinite}
+.play.buf i{opacity:.5}
+@keyframes chuspin{to{transform:rotate(360deg)}}
+.live .eq i{animation:chueq .9s ease-in-out infinite alternate}
+.live .eq i:nth-child(2n){animation-duration:.6s}.live .eq i:nth-child(3n){animation-duration:1.2s}
+@keyframes chueq{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+.eq i{transform-origin:bottom}
+.play.buf~.pl-now em{animation:chublink 1s ease-in-out infinite alternate}
+@keyframes chublink{from{opacity:1}to{opacity:.35}}
 .pl-lbl b{display:block;font:700 16px/1.1 "Roboto Condensed";text-transform:uppercase}
 .pl-lbl span{font-size:11px;color:#9fb3df}
 .eq{display:flex;gap:2px;align-items:flex-end;height:26px}
